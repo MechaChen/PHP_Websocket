@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #name {
+        width: 20%;
+      }
+      #message {
+        width: 60%;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="chat_wrapper"></div>
+    <div class="message_box" id="message_box"></div>
+    <div class="panel">
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Your name"
+        maxlength="10"
+      />
+      <input
+        type="text"
+        name="message"
+        id="message"
+        placeholder="message"
+        maxlength="80"
+      />
+      <button id="send-btn">Send</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
